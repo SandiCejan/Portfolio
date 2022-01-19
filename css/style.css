@@ -1,0 +1,322 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: auto;
+    color: white;
+}
+
+#head {
+    height: 80vh;
+    text-align: center;
+}
+
+#innerhead {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 1em 0;
+    padding: 1em;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+.panel {
+    height: 250px;
+    opacity: 0;
+    transition: opacity .75s ease-in-out;
+    width: 50%;
+}
+
+h3 {
+    margin-top: 50px;
+    display: block;
+    font-size: 35px;
+}
+
+h4 {
+    display: block;
+    font-size: 25px;
+}
+
+.join {
+    height: 0px;
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    margin: -30px auto;
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    background-attachment: scroll;
+    z-index: -2;
+}
+
+.j1 {
+    background-image: url('../img/1sstLine.png');
+    max-height: 500px;
+}
+
+.lr {
+    background-image: url('../img/LeftRight.png');
+    background-size: 1000px 1000px;
+    max-height: 1000px;
+}
+
+.rl {
+    background-image: url('../img/RightLeft.png');
+    background-size: 1000px 1000px;
+    max-height: 1000px;
+}
+
+.fn {
+    background-image: url('../img/LastLine.png');
+    max-height: 500px;
+}
+
+.lefta {
+    margin-left: 20%;
+    text-align: left;
+}
+
+.righta {
+    margin-right: 20%;
+    float: right;
+    text-align: right;
+}
+
+#projects {
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#projectssvg {
+    z-index: -2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 50%;
+}
+
+#footer {
+    height: 100vh;
+}
+
+#c {
+    transition: r .5s ease-in-out;
+}
+
+#projectsContent p {
+    transition: opacity .25s ease;
+}
+
+#projectsContent {
+    margin-top: -80%;
+    padding-top: 80%;
+    background: white;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+
+
+/* 
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.frontcard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffc728;
+    color: #333;
+}
+
+.rearcard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #fafafa;
+    color: #333;
+    transform: rotateY(180deg);
+} */
+
+#unityf {
+    background: url('../img/Unity.jpg') center;
+    background-size: cover;
+}
+
+#unityr {
+    background: url('../img/UnityIcon.png') center no-repeat;
+    background-size: 100%;
+}
+
+#VSf {
+    background: url('../img/VS.jpg') center;
+    background-size: cover;
+}
+
+#VSr {
+    background: url('../img/VSIcon.png') center no-repeat;
+    background-size: 100%;
+}
+
+#VSCodef {
+    background: url('../img/VSCode.jpg') center;
+    background-size: cover;
+}
+
+#VSCoder {
+    background: url('../img/VSCodeIcon.png') center no-repeat;
+    background-size: 100%;
+}
+
+#netbeansf {
+    background: url('../img/NetBeans.jpg') center;
+    background-size: cover;
+}
+
+#netbeansr {
+    background: url('../img/NetBeansLogo.png') center no-repeat;
+    background-size: 100%;
+}
+
+.card:hover>.frontcard {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover>.rearcard {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.frontcard,
+.rearcard {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .2s ease-in-out;
+}
+
+.frontcard {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.rearcard {
+    transform: perspective(600px) rotateY(180deg);
+    text-align: center;
+}
+
+h5 {
+    margin: 50px 0;
+    font-size: 50px;
+}
+
+.aInCard {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    width: 60%;
+    bottom: 30px;
+    left: 20%;
+}
+
+.rearcard a {
+    background: black;
+    color: white;
+}
+
+.rearcard h5 {
+    font-weight: 600;
+    margin: 50px 0;
+    font-size: 40px;
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+@media(max-width: 1016px) {
+    .join {
+        width: 100%;
+    }
+    .lr,
+    .rl {
+        background-size: 100% 1000px;
+    }
+    .j1,
+    .fn {
+        background-size: 100% 500px;
+    }
+}
+
+@media(max-width: 1120px) {
+    .lefta {
+        margin-left: 10%;
+    }
+    .righta {
+        margin-right: 10%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 70px;
+    }
+}
+
+@media(max-width: 1240px) {
+    h3 {
+        font-size: 1.5em !important;
+    }
+    h4 {
+        font-size: 1em !important;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: black;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 3px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(212, 212, 212);
+}
