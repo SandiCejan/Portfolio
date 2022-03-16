@@ -1,0 +1,169 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#BackB {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    background: transparent;
+    border: white 2px solid;
+    border-radius: 10px;
+    color: white;
+    padding: 3px 10px;
+}
+
+#BackB:hover {
+    color: black;
+    background: white;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: auto;
+    color: white;
+    padding: 50px 10px 0 10px;
+}
+
+#mainpic {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    z-index: -2;
+    background: url(../img/VSCode.jpg) fixed center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 20%;
+}
+
+#VSCodeIcon {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    z-index: 2;
+    background: url(../img/VSCodeIcon.png) center no-repeat;
+    background-size: 100%;
+}
+
+#mainpic h1 {
+    color: white;
+    margin: auto;
+    font-size: 100px;
+    font-family: initial;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    max-width: 250px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card:hover>.frontcard {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover>.rearcard {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.frontcard,
+.rearcard {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .2s ease-in-out;
+}
+
+.frontcard {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.rearcard {
+    transform: perspective(600px) rotateY(180deg);
+    text-align: center;
+}
+
+#ImgToStrf {
+    background: url('../img/ImgToString.jpg') center;
+    background-size: cover;
+}
+
+#Jackf {
+    background: url('../img/LuckyNumGen.jpg') center;
+    background-size: cover;
+}
+
+#Jackr {
+    background: url('../img/LuckyNumGenIcon.png') center no-repeat;
+    background-size: 300px 100%;
+}
+
+h5 {
+    margin: 50px 0;
+    font-size: 50px;
+    color: black;
+}
+
+.aInCard {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    width: 60%;
+    bottom: 30px;
+    left: 20%;
+}
+
+.rearcard a {
+    background: black;
+    color: white;
+}
+
+.rearcard h5 {
+    font-weight: 600;
+    margin: 50px 0;
+    font-size: 40px;
+}
+
+#footer {
+    margin-top: 600px;
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: black;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 3px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(212, 212, 212);
+}
