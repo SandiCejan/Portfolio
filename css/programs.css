@@ -1,0 +1,53 @@
+#BackB {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    background: transparent;
+    border: white 2px solid;
+    border-radius: 10px;
+    color: white;
+    padding: 3px 10px;
+}
+
+#BackB:hover {
+    color: black;
+    background: white;
+}
+
+#mainpic {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    z-index: -2;
+    background-size: cover !important;
+    text-align: center;
+    padding-top: 20%;
+}
+
+#AppIconIcon {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    z-index: 2;
+    background-size: 100% 100% !important;
+}
+
+#mainpic h1 {
+    color: white;
+    margin: auto;
+    font-size: 100px;
+    font-family: initial;
+}
+
+h5 {
+    margin: 50px 0;
+    font-size: 50px;
+    color: black;
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}

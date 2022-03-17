@@ -1,0 +1,187 @@
+#unityf {
+    background: url('../img/Unity.jpg') center;
+    background-size: cover;
+}
+
+#unityr {
+    background: url('../img/UnityIcon.png') center no-repeat;
+    background-size: 100%;
+}
+
+#VSf {
+    background: url('../img/VS.jpg') center;
+    background-size: cover;
+}
+
+#VSr {
+    background: url('../img/VSIcon.png') center no-repeat;
+    background-size: 100%;
+}
+
+#VSCodef {
+    background: url('../img/VSCode.jpg') center;
+    background-size: cover;
+}
+
+#VSCoder {
+    background: url('../img/VSCodeIcon.png') center no-repeat;
+    background-size: 100%;
+}
+
+#netbeansf {
+    background: url('../img/NetBeans.jpg') center;
+    background-size: cover;
+}
+
+#netbeansr {
+    background: url('../img/NetBeansLogo.png') center no-repeat;
+    background-size: 100%;
+}
+
+#projectsContent p {
+    transition: opacity .25s ease;
+}
+
+#projectsContent {
+    margin-top: -80%;
+    padding-top: 80%;
+    background: white;
+}
+
+#head {
+    height: 80vh;
+    text-align: center;
+}
+
+#innerhead {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 1em 0;
+    padding: 1em;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+.panel {
+    height: 250px;
+    opacity: 0;
+    transition: opacity .75s ease-in-out;
+    width: 50%;
+}
+
+h3 {
+    margin-top: 50px;
+    display: block;
+    font-size: 35px;
+}
+
+h4 {
+    display: block;
+    font-size: 25px;
+}
+
+.join {
+    height: 0px;
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    margin: -30px auto;
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    background-attachment: scroll;
+    z-index: -2;
+}
+
+.j1 {
+    background-image: url('../img/1sstLine.png');
+    max-height: 500px;
+}
+
+.lr {
+    background-image: url('../img/LeftRight.png');
+    background-size: 1000px 1000px;
+    max-height: 1000px;
+}
+
+.rl {
+    background-image: url('../img/RightLeft.png');
+    background-size: 1000px 1000px;
+    max-height: 1000px;
+}
+
+.fn {
+    background-image: url('../img/LastLine.png');
+    max-height: 500px;
+}
+
+.lefta {
+    margin-left: 20%;
+    text-align: left;
+}
+
+.righta {
+    margin-right: 20%;
+    float: right;
+    text-align: right;
+}
+
+#projects {
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#projectssvg {
+    z-index: -2;
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    margin-top: 25%;
+}
+
+@media(max-width: 1016px) {
+    .join {
+        width: 100%;
+    }
+    .lr,
+    .rl {
+        background-size: 100% 1000px;
+    }
+    .j1,
+    .fn {
+        background-size: 100% 500px;
+    }
+}
+
+@media(max-width: 1120px) {
+    .lefta {
+        margin-left: 10%;
+    }
+    .righta {
+        margin-right: 10%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 70px;
+    }
+}
+
+@media(max-width: 1240px) {
+    h3 {
+        font-size: 1.5em !important;
+    }
+    h4 {
+        font-size: 1em !important;
+    }
+}

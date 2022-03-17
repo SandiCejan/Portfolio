@@ -39,7 +39,7 @@ body {
     height: 100vh;
     margin: 0;
     z-index: -2;
-    background: url(../img/TSCLegendeMain.jpg) fixed center no-repeat;
+    background: url(../../img/TSCLegendeMain.jpg) fixed center no-repeat;
     background-size: cover;
     text-align: center;
     padding-top: 20%;
@@ -50,7 +50,7 @@ body {
     height: 200px;
     margin: auto;
     z-index: 2;
-    background: url(../img/TscLegendelogoBig.png) center no-repeat;
+    background: url(../../img/TscLegendelogoBig.png) center no-repeat;
     background-size: 100%;
 }
 
@@ -120,33 +120,33 @@ input[name="r"] {
 }
 
 #unitypic {
-    background: url(../img/UnityIcon.png) center no-repeat;
+    background: url(../../img/UnityIcon.png) center no-repeat;
     background-size: 60% 100% !important;
 }
 
 #Photonpic {
-    background: url('../img/PhotonLogo.png') center no-repeat;
+    background: url('../../img/PhotonLogo.png') center no-repeat;
     background-size: 100% 70% !important;
 }
 
 #s1 {
-    background: url('../img/TSCLegende2.jpg') center no-repeat;
+    background: url('../../img/TSCLegende2.jpg') center no-repeat;
 }
 
 #s2 {
-    background: url('../img/TSCLegende2.jpg') center no-repeat;
+    background: url('../../img/TSCLegende2.jpg') center no-repeat;
 }
 
 #s3 {
-    background: url('../img/TSCLegende2.jpg') center no-repeat;
+    background: url('../../img/TSCLegende2.jpg') center no-repeat;
 }
 
 #s4 {
-    background: url('../img/TSCLegende2.jpg') center no-repeat;
+    background: url('../../img/TSCLegende2.jpg') center no-repeat;
 }
 
 #s5 {
-    background: url('../img/TSCLegende2.jpg') center no-repeat;
+    background: url('../../img/TSCLegende2.jpg') center no-repeat;
 }
 
 #r1:checked~.s1 {

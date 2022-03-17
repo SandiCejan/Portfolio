@@ -1,0 +1,15 @@
+#mainpic {
+    background: url(../img/NetBeans.jpg) fixed center no-repeat;
+}
+
+#BackB {
+    background-color: black;
+}
+
+#mainpic h1 {
+    color: black;
+}
+
+#AppIconIcon {
+    background: url(../img/NetBeansLogo.png) center no-repeat;
+}
