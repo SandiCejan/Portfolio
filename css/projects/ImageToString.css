@@ -1,0 +1,8 @@
+#rightPic {
+    background: url('../../img/ImgToString.jpg') center no-repeat;
+    background-size: 100%;
+    height: 300px;
+    width: 447px;
+    margin: auto;
+    margin-top: 20px;
+}

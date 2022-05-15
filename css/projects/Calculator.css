@@ -1,0 +1,16 @@
+#rightPic {
+    background: url('../../img/Calculator.jpg') center no-repeat;
+    height: 300px;
+    width: 447px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#Logo {
+    background: url('../../img/CalculatorIcon.png') center no-repeat;
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}

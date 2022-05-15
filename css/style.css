@@ -17,7 +17,7 @@ body {
 }
 
 #footer {
-    height: 100vh;
+    height: 100px;
 }
 
 #c {
@@ -133,13 +133,14 @@ a:hover {
 }
 
 #NoteBrf {
-    background: url('../img/Primpy.png') center;
+    background: url('../img/NoteBricks.jpg') center;
     background-size: cover;
 }
 
 #NoteBrr {
-    background: url('../img/PrimpyIcon.png') center no-repeat;
-    background-size: 100%;
+    background: url('../img/NoteBricks.png') center no-repeat;
+    background-size: 150px;
+    background-position-y: 80px;
 }
 
 #Discordf {
@@ -149,7 +150,7 @@ a:hover {
 
 #Discordr {
     background: url('../img/DiscordLogo.png') center no-repeat;
-    background-size: 100%;
+    background-size: 70%;
 }
 
 #ImgToStrf {
@@ -164,7 +165,7 @@ a:hover {
 
 #Jackr {
     background: url('../img/LuckyNumGenIcon.png') center no-repeat;
-    background-size: 300px 100%;
+    background-size: 80%;
 }
 
 #Clickerf {
@@ -184,7 +185,8 @@ a:hover {
 
 #Calcr {
     background: url('../img/CalculatorIcon.png') center no-repeat;
-    background-size: 150px 50%;
+    background-size: 115px 40%;
+    background-position-y: 105px;
 }
 
 #Nikef {
@@ -204,5 +206,14 @@ a:hover {
 
 #BombSqr {
     background: url('../img/BombSquadIcon.png') center no-repeat;
-    background-size: 100%;
+    background-size: 80%;
 }
+
+@media(max-width: 1400px) {
+    .wrapper {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media

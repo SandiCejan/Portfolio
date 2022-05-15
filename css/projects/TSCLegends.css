@@ -1,122 +1,20 @@
-html {
-    box-sizing: border-box;
-}
-
-body {
-    background: black;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-#BackB {
-    position: fixed;
-    left: 10px;
-    top: 10px;
-    background: transparent;
-    border: white 2px solid;
-    border-radius: 10px;
-    color: white;
-    padding: 3px 10px;
-}
-
-#BackB:hover {
-    color: black;
-    background: white;
-}
-
-.wrapper {
-    max-width: 1300px;
-    margin: auto;
-    color: white;
-    padding: 50px 10px 0 10px;
-}
-
 #mainpic {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    z-index: -2;
     background: url(../../img/TSCLegendeMain.jpg) fixed center no-repeat;
     background-size: cover;
-    text-align: center;
-    padding-top: 20%;
 }
 
 #TSCLegIcon {
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    z-index: 2;
     background: url(../../img/TscLegendelogoBig.png) center no-repeat;
     background-size: 100%;
 }
 
-#mainpic h1 {
-    color: white;
-    margin: auto;
-    font-size: 100px;
-    font-family: initial;
-}
-
-.row {
-    height: 100%;
-}
-
-#row1 {
-    height: 600px;
-}
-
-#slideshow {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
 .slides {
     width: 500%;
-    height: 100%;
-    display: flex;
 }
 
 .slide {
     width: 20%;
     transition: 0.5s;
-    background-size: 100% 100% !important;
-    overflow: hidden;
-}
-
-.navigation {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-}
-
-.bar {
-    width: 40px;
-    height: 13px;
-    border: 2px solid #fff;
-    margin: 6px;
-    cursor: pointer;
-}
-
-.bar:hover {
-    background: #fff;
-}
-
-input[name="r"] {
-    position: absolute;
-    visibility: hidden;
-}
-
-.rightpic {
-    height: 35%;
-    width: 100%;
-    margin-top: 30%;
 }
 
 #unitypic {
@@ -169,47 +67,8 @@ input[name="r"] {
     margin-left: -80%;
 }
 
-#contright {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-}
-
-#rowright {
-    width: 100%;
-    margin: 0;
-}
-
-#rightpictures {
-    padding: 0 !important;
-}
-
-#footer {
-    height: 400px;
-}
-
-.downB {
-    padding: 10px 10px 10px 20px;
-    background: #7a4f00;
-    color: white;
-    font-weight: 700;
-    border: 2px solid black;
-    border-radius: 7px;
-    margin: 0px 10px;
-}
-
-.downlogo {
-    height: 30px;
-}
-
-.downB:hover {
-    background: #603e00;
-}
-
-@media(max-width: 800px) {
-    #mainpic h1 {
-        font-size: 60px;
-    }
+h5 {
+    margin: 0 !important;
 }
 
 @media(min-width: 1200px) {
@@ -229,9 +88,6 @@ input[name="r"] {
         margin-top: 20px;
         height: 150px;
     }
-    #slideshow {
-        height: 70%;
-    }
     #rightpictures {
         height: 40vh;
     }
@@ -241,21 +97,4 @@ input[name="r"] {
     #unitypic {
         background-size: 70% 100% !important;
     }
-}
-
-::-webkit-scrollbar {
-    width: 6px;
-}
-
- ::-webkit-scrollbar-track {
-    background: black;
-}
-
- ::-webkit-scrollbar-thumb {
-    background: white;
-    border-radius: 3px;
-}
-
- ::-webkit-scrollbar-thumb:hover {
-    background: rgb(212, 212, 212);
 }

@@ -43,8 +43,8 @@
 }
 
 #projectsContent {
-    margin-top: -80%;
-    padding-top: 80%;
+    margin-top: -100vh;
+    padding-top: 100vh;
     background: white;
 }
 
@@ -146,6 +146,23 @@ h4 {
     height: 200%;
     width: 100%;
     margin-top: 25%;
+}
+
+h6 {
+    margin: 10px;
+    font-size: 20px !important;
+}
+
+h6 a {
+    color: black !important;
+}
+
+#footer {
+    background-color: white;
+}
+
+a:hover {
+    color: rgb(95, 95, 95) !important;
 }
 
 @media(max-width: 1016px) {
