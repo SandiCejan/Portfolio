@@ -19,7 +19,7 @@
 
 #unitypic {
     background: url(../../img/UnityIcon.png) center no-repeat;
-    background-size: 60% 100% !important;
+    background-size: 55% 100% !important;
 }
 
 #Photonpic {
@@ -32,19 +32,19 @@
 }
 
 #s2 {
-    background: url('../../img/TSCLegende2.jpg') center no-repeat;
+    background: url('../../img/TSCLegende3.jpg') center no-repeat;
 }
 
 #s3 {
-    background: url('../../img/TSCLegende2.jpg') center no-repeat;
+    background: url('../../img/TSCLegende4.jpg') center no-repeat;
 }
 
 #s4 {
-    background: url('../../img/TSCLegende2.jpg') center no-repeat;
+    background: url('../../img/TSCLegende5.jpg') center no-repeat;
 }
 
 #s5 {
-    background: url('../../img/TSCLegende2.jpg') center no-repeat;
+    background: url('../../img/TSCLegende6.jpg') center no-repeat;
 }
 
 #r1:checked~.s1 {
