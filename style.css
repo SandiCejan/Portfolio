@@ -1,0 +1,220 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: auto;
+    padding-top: 40px;
+    color: white;
+}
+
+#footer {
+    height: 100px;
+}
+
+#c {
+    transition: r .5s ease-in-out;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    max-width: 250px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.card:hover>.frontcard {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover>.rearcard {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.frontcard,
+.rearcard {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .2s ease-in-out;
+}
+
+.frontcard {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.rearcard {
+    transform: perspective(600px) rotateY(180deg);
+    text-align: center;
+}
+
+h5 {
+    margin: 50px 0;
+    font-size: 50px;
+}
+
+.aInCard {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    width: 60%;
+    bottom: 30px;
+    left: 20%;
+}
+
+.rearcard a {
+    background: black;
+    color: white;
+}
+
+.rearcard h5 {
+    font-weight: 600;
+    margin: 50px 0;
+    font-size: 40px;
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+.aInCard a:hover {
+    color: white!important;
+    font-weight: 600 !important;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: black;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 3px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(212, 212, 212);
+}
+
+#TSCLegendsf {
+    background: url('../img/TSCLegendeMain.jpg') center;
+    background-size: cover;
+}
+
+#TSCLegendsr {
+    background: url('../img/TscLegendelogoBig.png') center no-repeat;
+    background-size: 160px 50%;
+}
+
+#Primpyf {
+    background: url('../img/Primpy.png') center;
+    background-size: cover;
+}
+
+#Primpyr {
+    background: url('../img/PrimpyIcon.png') center no-repeat;
+    background-size: 40%;
+}
+
+#NoteBrf {
+    background: url('../img/NoteBricks.jpg') center;
+    background-size: cover;
+}
+
+#NoteBrr {
+    background: url('../img/NoteBricks.png') center no-repeat;
+    background-size: 150px;
+    background-position-y: 80px;
+}
+
+#Discordf {
+    background: url('../img/Discord.jpg') center;
+    background-size: cover;
+}
+
+#Discordr {
+    background: url('../img/DiscordLogo.png') center no-repeat;
+    background-size: 70%;
+}
+
+#ImgToStrf {
+    background: url('../img/ImgToString.jpg') center;
+    background-size: cover;
+}
+
+#Jackf {
+    background: url('../img/LuckyNumGen.jpg') center;
+    background-size: cover;
+}
+
+#Jackr {
+    background: url('../img/LuckyNumGenIcon.png') center no-repeat;
+    background-size: 80%;
+}
+
+#Clickerf {
+    background: url('../img/Clicker.jpg') center;
+    background-size: 100% 100%;
+}
+
+#Clickerr {
+    background: url('../img/ClickerLogo.png') center no-repeat;
+    background-size: 200px 50%;
+}
+
+#Calcf {
+    background: url('../img/Calculator.jpg') center;
+    background-size: cover;
+}
+
+#Calcr {
+    background: url('../img/CalculatorIcon.png') center no-repeat;
+    background-size: 115px 40%;
+    background-position-y: 105px;
+}
+
+#Nikef {
+    background: url('../img/Nike.png') center;
+    background-size: cover;
+}
+
+#Niker {
+    background: url('../img/NikeLogo.png') center no-repeat;
+    background-size: 100%;
+}
+
+#BombSqf {
+    background: url('../img/BombSquad.jpg') center;
+    background-size: cover;
+}
+
+#BombSqr {
+    background: url('../img/BombSquadIcon.png') center no-repeat;
+    background-size: 80%;
+}
+
+@media(max-width: 1400px) {
+    .wrapper {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
