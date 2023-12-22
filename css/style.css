@@ -170,6 +170,33 @@ a:hover {
     background: url('../img/LuckyNumGenIcon.png') center no-repeat;
     background-size: 80%;
 }
+#Akrf {
+    background: url('../img/MaliAkrobat.jpg') center;
+    background-size: cover;
+}
+
+#Akrr {
+    background: url('../img/MaliAkrobatIcon.png') center no-repeat;
+    background-size: 80%;
+}
+#Dartf {
+    background: url('../img/DartBoys.jpg') center;
+    background-size: cover;
+}
+
+#Dartr {
+    background: url('../img/DartBoysIcon.png') center no-repeat;
+    background-size: 40%;
+}
+#Najemf {
+    background: url('../img/Najemko.jpg') center;
+    background-size: cover;
+}
+
+#Najemr {
+    background: url('../img/NajemkoLogo.png') center no-repeat;
+    background-size: 80%;
+}
 
 #Clickerf {
     background: url('../img/Clicker.jpg') center;
