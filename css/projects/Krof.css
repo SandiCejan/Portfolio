@@ -1,0 +1,73 @@
+#mainpic {
+    background: url(../../img/Krof1.jpg) fixed center no-repeat;
+    background-size: cover;
+}
+
+#TSCLegIcon {
+    background: url(../../img/KrofIcon.png) center no-repeat;
+    background-size: 100%;
+}
+
+.slides {
+    width: 500%;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.5s;
+}
+.rightpic {
+    height: 100%;
+}
+
+#monogamepic {
+    background: url(../../img/MonoGameIcon.png) center no-repeat;
+    background-size:contain;
+    height: 100%;
+    width: 70%;
+    margin-left: 30px;
+}
+
+#s1 {
+    background: url('../../img/Krof1.jpg') center no-repeat;
+}
+
+#s2 {
+    background: url('../../img/Krof2.jpg') center no-repeat;
+}
+
+#s3 {
+    background: url('../../img/Krof3.jpg') center no-repeat;
+}
+
+#r1:checked~.s1 {
+    margin-left: 0;
+}
+
+#r2:checked~.s1 {
+    margin-left: -20%;
+}
+
+#r3:checked~.s1 {
+    margin-left: -40%;
+}
+
+h5 {
+    margin: 0 !important;
+}
+
+@media(min-width: 1200px) {
+    .rightpic {
+        height: 45%;
+    }
+}
+
+@media(max-width: 992px) {
+    #monogamepic {
+        margin-top: 20px;
+        height: 150px;
+    }
+    #rightpictures {
+        height: 40vh;
+    }
+}

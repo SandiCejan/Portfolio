@@ -86,8 +86,17 @@ h5 {
 
 .rearcard h5 {
     font-weight: 600;
-    margin: 50px 0;
+    margin: 20px 0 0;
     font-size: 40px;
+}
+
+.downlogo {
+    height: 30px;
+}
+
+.rightlogo {
+    height: 30px;
+    transform: rotate(-90deg);
 }
 
 a:hover {
@@ -124,6 +133,15 @@ a:hover {
     background: url('../img/TscLegendelogoBig.png') center no-repeat;
     background-size: 160px 50%;
 }
+#Kroff {
+    background: url('../img/Krof1.jpg') center;
+    background-size: cover;
+}
+
+#Krofr {
+    background: url('../img/KrofIcon.png') center no-repeat;
+    background-size: 160px 50%;
+}
 
 #Primpyf {
     background: url('../img/Primpy.png') center;
@@ -153,7 +171,7 @@ a:hover {
 
 #Discordr {
     background: url('../img/DiscordLogo.png') center no-repeat;
-    background-size: 70%;
+    background-size: 160px 50%;
 }
 
 #ImgToStrf {
@@ -177,7 +195,7 @@ a:hover {
 
 #Akrr {
     background: url('../img/MaliAkrobatIcon.png') center no-repeat;
-    background-size: 80%;
+    background-size: 160px 50%;
 }
 #Dartf {
     background: url('../img/DartBoys.jpg') center;
@@ -236,7 +254,7 @@ a:hover {
 
 #BombSqr {
     background: url('../img/BombSquadIcon.png') center no-repeat;
-    background-size: 80%;
+    background-size: 160px 50%;
 }
 
 @media(max-width: 1400px) {

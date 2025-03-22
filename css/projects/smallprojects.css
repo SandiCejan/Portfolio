@@ -44,11 +44,6 @@
     background: #603e00;
 }
 
-.rightlogo {
-    height: 30px;
-    transform: rotate(-90deg);
-}
-
 @media(max-width: 800px) {
     #mainpic h1 {
         font-size: 60px;
